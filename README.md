@@ -6,5 +6,5 @@ Lookup ViM digraphs.
 
 See `digraph_test.go` for example use.
 
-Version: 1.0.0
+Version: 1.1.0
 License: BSD-3
