@@ -24,6 +24,7 @@ This outputs:
 
     The symbol for My is µ
 
+[Full list of digraphs](https://github.com/xyproto/digraph/blob/ac809dda476022952cdfc5b12249e8e5fe9f1547/digraphs.txt#L83)
 
 ### General info
 
