@@ -1,4 +1,4 @@
-package digraphs
+package digraph
 
 import (
 	"testing"

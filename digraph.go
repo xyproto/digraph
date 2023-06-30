@@ -1,5 +1,5 @@
-// Package digraphs provides functions for looking up ViM-style digraphs
-package digraphs
+// Package digraph provides functions for looking up ViM-style digraphs
+package digraph
 
 import (
 	_ "embed"
