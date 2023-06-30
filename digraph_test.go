@@ -27,3 +27,20 @@ func TestLookupDescription(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestAll(t *testing.T) {
+	allDigraphs := All()
+	if len(allDigraphs) != digraphsInDigraphFile {
+		t.Fail()
+	}
+	foundMy := false
+	for _, d := range allDigraphs {
+		if d == "My" {
+			foundMy = true
+			break
+		}
+	}
+	if !foundMy {
+		t.Fail()
+	}
+}
