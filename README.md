@@ -4,7 +4,29 @@
 
 Lookup ViM digraphs.
 
-See `digraph_test.go` for example use.
+### Example use
 
-Version: 1.2.0
-License: BSD-3
+```go
+package main
+
+import (
+    "fmt"
+
+    "github.com/xyproto/digraph"
+)
+
+func main() {
+    fmt.Printf("The symbol for My is %c\n", digraph.MustLookup("My"))
+}
+```
+
+This outputs:
+
+    The symbol for My is µ
+
+
+### General info
+
+* License: BSD-3
+* Version: 1.2.0
+* Author: Alexander F. Rødseth &lt;xyproto@archlinux.org&gt;
