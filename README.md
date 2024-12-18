@@ -29,5 +29,5 @@ This outputs:
 ### General info
 
 * License: BSD-3
-* Version: 1.2.0
+* Version: 1.3.0
 * Author: Alexander F. Rødseth &lt;xyproto@archlinux.org&gt;
